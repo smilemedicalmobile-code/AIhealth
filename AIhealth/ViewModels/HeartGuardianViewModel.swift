@@ -8,7 +8,7 @@ class HeartGuardianViewModel: ObservableObject {
     @Published var ppgData: [PPGPoint] = []
     @Published var currentBpm: Double = 0
     @Published var progress: Double = 0
-    @Published var status: String = "카메라 초기화 중..."
+    @Published var status: String = "hg_status_initializing".localized
     @Published var error: String?
     @Published var isAnalyzing: Bool = false
     @Published var analysisResult: AnalysisResult?
@@ -49,12 +49,12 @@ class HeartGuardianViewModel: ObservableObject {
 
         if cameraService.error != nil {
             self.error = cameraService.error
-            self.status = "오류"
+            self.status = "hg_status_error".localized
             return
         }
 
         measurementStartTime = Date()
-        status = "신호 안정화 중..."
+        status = "hg_status_stabilizing".localized
 
         startTimer()
     }
@@ -83,7 +83,7 @@ class HeartGuardianViewModel: ObservableObject {
         if elapsedTime > stabilizationTime {
             let measurementProgress = (elapsedTime - stabilizationTime) / measurementDuration
             progress = min(1.0, measurementProgress)
-            status = "측정 중..."
+            status = "hg_status_measuring".localized
 
             if progress >= 1.0 {
                 Task {
@@ -131,13 +131,13 @@ class HeartGuardianViewModel: ObservableObject {
     private func finishMeasurement() async {
         stopMeasurement()
         isAnalyzing = true
-        status = "데이터 분석 중..."
+        status = "hg_status_analyzing".localized
 
         guard ppgData.count >= 50 else {
             analysisResult = AnalysisResult(
                 averageBpm: 0,
                 hrv: 0,
-                interpretation: "신뢰할 수 있는 분석을 위한 데이터가 충분하지 않습니다. 다시 시도해 주세요.",
+                interpretation: "hg_error_insufficient_data".localized,
                 riskLevel: .high
             )
             isAnalyzing = false
@@ -148,7 +148,7 @@ class HeartGuardianViewModel: ObservableObject {
             analysisResult = AnalysisResult(
                 averageBpm: 0,
                 hrv: 0,
-                interpretation: "명확한 심장 박동 신호를 감지할 수 없습니다. 손가락을 움직이지 않고 카메라와 플래시를 완전히 덮었는지 확인해 주세요.",
+                interpretation: "hg_error_no_signal".localized,
                 riskLevel: .high
             )
             isAnalyzing = false
@@ -172,7 +172,7 @@ class HeartGuardianViewModel: ObservableObject {
         ppgData = []
         currentBpm = 0
         progress = 0
-        status = "카메라 초기화 중..."
+        status = "hg_status_initializing".localized
         error = nil
         isAnalyzing = false
         analysisResult = nil

@@ -24,7 +24,7 @@ class HealthInterpretationService {
             return response
         } catch {
             print("GPT API Error: \(error)")
-            return "현재 AI 분석을 가져올 수 없습니다. 제공된 원시 데이터에 집중하고, 해석이 필요한 경우 의료 전문가와 상담하십시오."
+            return "hg_error_ai_unavailable".localized
         }
     }
 }

@@ -473,3 +473,52 @@
 "error_passport_expiry_required" = "여권 만료일자를 입력해주세요.";
 "error_contact_number_required" = "연락 가능한 연락처를 입력해주세요.";
 "error_address_in_korea_required" = "한국 주소를 입력해주세요.";
+
+/* Heart Guardian */
+"tab_heart_rate" = "심박 측정";
+"heart_guardian_title" = "하트 가디언";
+
+/* Heart Guardian - Instructions */
+"hg_instruction_title" = "측정 방법";
+"hg_instruction_cover_camera_title" = "카메라와 플래시 가리기";
+"hg_instruction_cover_camera_desc" = "검지손가락을 후면 카메라와 플래시에 가볍게 올려 완전히 덮어주세요.";
+"hg_instruction_allow_camera_title" = "카메라 접근 허용";
+"hg_instruction_allow_camera_desc" = "측정을 위해 카메라 접근을 허용하라는 메시지가 표시됩니다.";
+"hg_instruction_stay_still_title" = "움직이지 않고 조용히 있기";
+"hg_instruction_stay_still_desc" = "측정하는 동안 약 30초간 침착하게 움직이거나 말하지 마세요.";
+"hg_instruction_start_button" = "측정 시작";
+
+/* Heart Guardian - Measurement */
+"hg_status_initializing" = "카메라 초기화 중...";
+"hg_status_stabilizing" = "신호 안정화 중...";
+"hg_status_measuring" = "측정 중...";
+"hg_status_analyzing" = "데이터 분석 중...";
+"hg_status_error" = "오류";
+"hg_measurement_error_title" = "측정 오류";
+"hg_measurement_guide" = "손가락을 움직이지 말고 카메라를 완전히 덮어주세요";
+"hg_ppg_signal" = "PPG 신호";
+
+/* Heart Guardian - Results */
+"hg_result_title" = "분석 결과";
+"hg_result_avg_bpm" = "평균 심박수";
+"hg_result_hrv" = "심박 변이도";
+"hg_result_risk_level" = "모의 위험도";
+"hg_result_ai_interpretation" = "AI 해석";
+"hg_result_restart_button" = "다시 측정하기";
+
+/* Heart Guardian - Risk Levels */
+"hg_risk_low" = "낮음";
+"hg_risk_moderate" = "보통";
+"hg_risk_high" = "높음";
+
+/* Heart Guardian - Error Messages */
+"hg_error_camera_permission" = "카메라 접근 권한이 필요합니다.";
+"hg_error_no_camera" = "후면 카메라를 찾을 수 없습니다.";
+"hg_error_camera_setup" = "카메라 설정 중 오류가 발생했습니다";
+"hg_error_insufficient_data" = "신뢰할 수 있는 분석을 위한 데이터가 충분하지 않습니다. 다시 시도해 주세요.";
+"hg_error_no_signal" = "명확한 심장 박동 신호를 감지할 수 없습니다. 손가락을 움직이지 않고 카메라와 플래시를 완전히 덮었는지 확인해 주세요.";
+"hg_error_ai_unavailable" = "현재 AI 분석을 가져올 수 없습니다. 제공된 원시 데이터에 집중하고, 해석이 필요한 경우 의료 전문가와 상담하십시오.";
+
+/* Heart Guardian - Disclaimer */
+"hg_disclaimer_title" = "중요 면책 조항";
+"hg_disclaimer_text" = "이 애플리케이션은 정보 제공 및 교육 목적으로만 사용됩니다. 의료 기기가 아니며 자가 진단이나 전문적인 의학적 조언, 진단 또는 치료를 대신하는 용도로 사용해서는 안 됩니다. 건강에 대한 우려가 있는 경우 자격을 갖춘 의료 전문가와 상담하십시오.";

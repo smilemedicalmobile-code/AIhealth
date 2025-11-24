@@ -7,7 +7,7 @@ struct HeartGuardianResultView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 24) {
-                Text("분석 결과")
+                Text("hg_result_title".localized)
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hex: "#1E293B"))
@@ -15,14 +15,14 @@ struct HeartGuardianResultView: View {
                 // 결과 카드들
                 HStack(spacing: 12) {
                     ResultCard(
-                        title: "평균 심박수",
+                        title: "hg_result_avg_bpm".localized,
                         value: String(format: "%.1f", result.averageBpm),
                         unit: "BPM",
                         color: Color(hex: "#0284C7")
                     )
 
                     ResultCard(
-                        title: "심박 변이도",
+                        title: "hg_result_hrv".localized,
                         value: String(format: "%.1f", result.hrv),
                         unit: "ms",
                         color: Color(hex: "#0284C7")
@@ -30,7 +30,7 @@ struct HeartGuardianResultView: View {
                 }
 
                 ResultCard(
-                    title: "모의 위험도",
+                    title: "hg_result_risk_level".localized,
                     value: result.riskLevel.localizedString,
                     unit: "",
                     color: riskLevelColor(result.riskLevel),
@@ -39,7 +39,7 @@ struct HeartGuardianResultView: View {
 
                 // AI 해석
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("AI 해석")
+                    Text("hg_result_ai_interpretation".localized)
                         .font(.headline)
                         .foregroundColor(Color(hex: "#0C4A6E"))
 
@@ -59,7 +59,7 @@ struct HeartGuardianResultView: View {
 
                 // 다시 측정하기 버튼
                 Button(action: onRestart) {
-                    Text("다시 측정하기")
+                    Text("hg_result_restart_button".localized)
                         .font(.headline)
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)

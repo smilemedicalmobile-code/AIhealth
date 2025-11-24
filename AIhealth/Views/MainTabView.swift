@@ -59,7 +59,7 @@ struct MainTabView: View {
                 HeartGuardianMainView()
             }
             .tabItem {
-                Label("심박 측정", systemImage: "waveform.path.ecg")
+                Label("tab_heart_rate".localized, systemImage: "waveform.path.ecg")
             }
             .tag(4)
         }

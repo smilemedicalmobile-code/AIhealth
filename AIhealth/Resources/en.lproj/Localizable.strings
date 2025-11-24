@@ -507,3 +507,52 @@
 "error_passport_expiry_required" = "Please enter passport expiry date.";
 "error_contact_number_required" = "Please enter contact number.";
 "error_address_in_korea_required" = "Please enter address in Korea.";
+
+/* Heart Guardian */
+"tab_heart_rate" = "Heart Rate";
+"heart_guardian_title" = "Heart Guardian";
+
+/* Heart Guardian - Instructions */
+"hg_instruction_title" = "How to Measure";
+"hg_instruction_cover_camera_title" = "Cover Camera and Flash";
+"hg_instruction_cover_camera_desc" = "Gently place your index finger on the rear camera and flash to completely cover them.";
+"hg_instruction_allow_camera_title" = "Allow Camera Access";
+"hg_instruction_allow_camera_desc" = "You will be prompted to allow camera access for measurement.";
+"hg_instruction_stay_still_title" = "Stay Still and Quiet";
+"hg_instruction_stay_still_desc" = "Remain calm and still for about 30 seconds during measurement without moving or talking.";
+"hg_instruction_start_button" = "Start Measurement";
+
+/* Heart Guardian - Measurement */
+"hg_status_initializing" = "Initializing camera...";
+"hg_status_stabilizing" = "Stabilizing signal...";
+"hg_status_measuring" = "Measuring...";
+"hg_status_analyzing" = "Analyzing data...";
+"hg_status_error" = "Error";
+"hg_measurement_error_title" = "Measurement Error";
+"hg_measurement_guide" = "Keep your finger still and completely cover the camera";
+"hg_ppg_signal" = "PPG Signal";
+
+/* Heart Guardian - Results */
+"hg_result_title" = "Analysis Results";
+"hg_result_avg_bpm" = "Average Heart Rate";
+"hg_result_hrv" = "Heart Rate Variability";
+"hg_result_risk_level" = "Simulated Risk Level";
+"hg_result_ai_interpretation" = "AI Interpretation";
+"hg_result_restart_button" = "Measure Again";
+
+/* Heart Guardian - Risk Levels */
+"hg_risk_low" = "Low";
+"hg_risk_moderate" = "Moderate";
+"hg_risk_high" = "High";
+
+/* Heart Guardian - Error Messages */
+"hg_error_camera_permission" = "Camera access permission is required.";
+"hg_error_no_camera" = "Rear camera not found.";
+"hg_error_camera_setup" = "An error occurred while setting up the camera";
+"hg_error_insufficient_data" = "Insufficient data for reliable analysis. Please try again.";
+"hg_error_no_signal" = "Unable to detect clear heartbeat signal. Make sure to keep your finger still and completely cover the camera and flash.";
+"hg_error_ai_unavailable" = "Unable to fetch AI analysis at this time. Focus on the raw data provided and consult a healthcare professional if interpretation is needed.";
+
+/* Heart Guardian - Disclaimer */
+"hg_disclaimer_title" = "Important Disclaimer";
+"hg_disclaimer_text" = "This application is for informational and educational purposes only. It is not a medical device and should not be used for self-diagnosis or as a substitute for professional medical advice, diagnosis, or treatment. If you have health concerns, please consult a qualified healthcare professional.";

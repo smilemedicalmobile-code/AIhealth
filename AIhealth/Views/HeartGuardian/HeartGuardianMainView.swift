@@ -81,7 +81,7 @@ struct HeaderView: View {
                 .font(.system(size: 32))
                 .foregroundColor(Color(hex: "#F43F5E"))
 
-            Text("하트 가디언")
+            Text("heart_guardian_title".localized)
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(Color(hex: "#1E293B"))
@@ -97,12 +97,12 @@ struct DisclaimerView: View {
                 .font(.title3)
 
             VStack(alignment: .leading, spacing: 8) {
-                Text("중요 면책 조항")
+                Text("hg_disclaimer_title".localized)
                     .font(.caption)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hex: "#92400E"))
 
-                Text("이 애플리케이션은 정보 제공 및 교육 목적으로만 사용됩니다. 의료 기기가 아니며 자가 진단이나 전문적인 의학적 조언, 진단 또는 치료를 대신하는 용도로 사용해서는 안 됩니다. 건강에 대한 우려가 있는 경우 자격을 갖춘 의료 전문가와 상담하십시오.")
+                Text("hg_disclaimer_text".localized)
                     .font(.caption2)
                     .foregroundColor(Color(hex: "#78350F"))
                     .fixedSize(horizontal: false, vertical: true)

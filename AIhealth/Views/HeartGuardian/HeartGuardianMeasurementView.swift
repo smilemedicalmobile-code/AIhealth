@@ -47,7 +47,7 @@ struct ErrorView: View {
                 .font(.system(size: 48))
                 .foregroundColor(.red)
 
-            Text("측정 오류")
+            Text("hg_measurement_error_title".localized)
                 .font(.headline)
                 .foregroundColor(.red)
 
@@ -111,7 +111,7 @@ struct MeasurementContentView: View {
                 .padding(.vertical, 16)
 
             // 측정 안내
-            Text("손가락을 움직이지 말고 카메라를 완전히 덮어주세요")
+            Text("hg_measurement_guide".localized)
                 .font(.caption)
                 .foregroundColor(Color(hex: "#64748B"))
                 .multilineTextAlignment(.center)
@@ -142,7 +142,7 @@ struct PPGChartView: View {
             Rectangle()
                 .fill(Color(hex: "#F1F5F9"))
                 .overlay(
-                    Text("PPG 신호")
+                    Text("hg_ppg_signal".localized)
                         .foregroundColor(Color(hex: "#94A3B8"))
                 )
         }

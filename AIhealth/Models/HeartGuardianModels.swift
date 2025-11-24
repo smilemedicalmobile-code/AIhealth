@@ -16,11 +16,11 @@ enum RiskLevel: String, Codable {
     var localizedString: String {
         switch self {
         case .low:
-            return "낮음"
+            return "hg_risk_low".localized
         case .moderate:
-            return "보통"
+            return "hg_risk_moderate".localized
         case .high:
-            return "높음"
+            return "hg_risk_high".localized
         }
     }
 

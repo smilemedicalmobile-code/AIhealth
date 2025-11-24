@@ -29,7 +29,7 @@ class CameraService: NSObject, ObservableObject {
     func startSession() async {
         guard await checkPermissions() else {
             await MainActor.run {
-                self.error = "카메라 접근 권한이 필요합니다."
+                self.error = "hg_error_camera_permission".localized
             }
             return
         }
@@ -39,7 +39,7 @@ class CameraService: NSObject, ObservableObject {
         // 후면 카메라 설정
         guard let camera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) else {
             await MainActor.run {
-                self.error = "후면 카메라를 찾을 수 없습니다."
+                self.error = "hg_error_no_camera".localized
             }
             return
         }
@@ -80,7 +80,7 @@ class CameraService: NSObject, ObservableObject {
 
         } catch {
             await MainActor.run {
-                self.error = "카메라 설정 중 오류가 발생했습니다: \(error.localizedDescription)"
+                self.error = "\("hg_error_camera_setup".localized): \(error.localizedDescription)"
             }
         }
     }

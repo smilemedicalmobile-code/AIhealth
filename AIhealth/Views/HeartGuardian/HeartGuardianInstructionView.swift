@@ -5,7 +5,7 @@ struct HeartGuardianInstructionView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Text("측정 방법")
+            Text("hg_instruction_title".localized)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(Color(hex: "#1E293B"))
@@ -15,27 +15,27 @@ struct HeartGuardianInstructionView: View {
                 InstructionCard(
                     icon: "hand.point.up.left.fill",
                     iconColor: Color(hex: "#0284C7"),
-                    title: "카메라와 플래시 가리기",
-                    description: "검지손가락을 후면 카메라와 플래시에 가볍게 올려 완전히 덮어주세요."
+                    title: "hg_instruction_cover_camera_title".localized,
+                    description: "hg_instruction_cover_camera_desc".localized
                 )
 
                 InstructionCard(
                     icon: "camera.fill",
                     iconColor: Color(hex: "#0284C7"),
-                    title: "카메라 접근 허용",
-                    description: "측정을 위해 카메라 접근을 허용하라는 메시지가 표시됩니다."
+                    title: "hg_instruction_allow_camera_title".localized,
+                    description: "hg_instruction_allow_camera_desc".localized
                 )
 
                 InstructionCard(
                     icon: "figure.stand",
                     iconColor: Color(hex: "#0284C7"),
-                    title: "움직이지 않고 조용히 있기",
-                    description: "측정하는 동안 약 30초간 침착하게 움직이거나 말하지 마세요."
+                    title: "hg_instruction_stay_still_title".localized,
+                    description: "hg_instruction_stay_still_desc".localized
                 )
             }
 
             Button(action: onStart) {
-                Text("측정 시작")
+                Text("hg_instruction_start_button".localized)
                     .font(.headline)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
