@@ -1,7 +1,7 @@
 import Foundation
 
 class HealthInterpretationService {
-    private let gptService = GptApiService()
+    private let gptService = GptApiService.shared
 
     func getInterpretation(bpm: Double, hrv: Double) async -> String {
         let prompt = """
@@ -19,7 +19,8 @@ class HealthInterpretationService {
         """
 
         do {
-            let response = try await gptService.sendMessage(prompt)
+            let messages = [GptMessage(role: "user", content: prompt)]
+            let response = try await gptService.getChatCompletion(messages: messages, temperature: 0.7)
             return response
         } catch {
             print("GPT API Error: \(error)")
