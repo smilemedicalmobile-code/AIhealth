@@ -17,7 +17,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Camera access is required to attach photos of symptoms when making hospital reservations.</string>
+	<string>Camera access is required to attach photos of symptoms when making hospital reservations and to measure heart rate using PPG technology.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Photo library access is required to attach photos of symptoms when making hospital reservations.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

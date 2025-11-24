@@ -53,6 +53,15 @@ struct MainTabView: View {
                 Label("tab_records".localized, systemImage: "doc.text.fill")
             }
             .tag(3)
+
+            // Heart Guardian Tab
+            NavigationStack {
+                HeartGuardianMainView()
+            }
+            .tabItem {
+                Label("심박 측정", systemImage: "waveform.path.ecg")
+            }
+            .tag(4)
         }
         .accentColor(.bluePrimary)
     }
