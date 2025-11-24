@@ -37,7 +37,7 @@ enum RiskLevel: String, Codable {
 }
 
 // MARK: - Analysis Result
-struct AnalysisResult {
+struct AnalysisResult: Equatable {
     let averageBpm: Double
     let hrv: Double
     let interpretation: String
