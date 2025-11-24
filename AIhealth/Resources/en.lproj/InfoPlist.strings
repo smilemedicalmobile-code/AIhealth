@@ -1,0 +1,16 @@
+/*
+  InfoPlist.strings (English)
+  AIhealth
+*/
+
+/* Bundle display name */
+"CFBundleDisplayName" = "AI Medical Booking";
+
+/* Bundle name */
+"CFBundleName" = "AI Medical Booking";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Camera access is required to attach photos of symptoms when making hospital reservations.";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "Photo library access is required to attach photos of symptoms when making hospital reservations.";

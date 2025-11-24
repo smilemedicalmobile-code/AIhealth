@@ -1,0 +1,225 @@
+/* Tab Bar */
+"tab_home" = "ホーム";
+"tab_consultation" = "AI相談";
+"tab_reservation" = "予約";
+"tab_records" = "マイ記録";
+
+/* Home Screen */
+"home_title" = "ご希望の病院をご予約いただけます";
+"home_subtitle" = "";
+"ai_consultation_with_reservation" = "AI医療相談 + 病院予約";
+"ai_consultation_description" = "ご希望の病院をご予約いただけます";
+"direct_reservation" = "直接病院予約";
+"direct_reservation_description" = "ご希望の病院をご予約いただけます";
+"my_health_records" = "健康記録";
+"diagnosis_records" = "診療記録";
+"reservations" = "予約";
+"recent_consultations" = "最近の相談記録";
+"view_all" = "すべて表示";
+"no_consultations_yet" = "まだ相談記録がありません";
+"start_ai_consultation" = "AI相談を始めましょう！";
+"help" = "ヘルプ";
+"help_step_1" = "AI相談で症状を説明してください";
+"help_step_2" = "AIが適切な診療科を推薦します";
+"help_step_3" = "病院予約を進めてください";
+
+/* Chat Screen */
+"new_consultation" = "新規相談";
+"end_consultation" = "相談終了";
+"save_and_view_summary" = "相談内容を保存して要約を表示";
+"type_message_placeholder" = "症状を詳しく入力してください...";
+"generating_summary" = "AIが相談内容を分析しています...";
+"please_wait" = "しばらくお待ちください";
+"summary_complete" = "要約が完了しました";
+"ai_health_consultation" = "AI健康相談";
+"greeting_message" = "こんにちは！私はAI健康相談アシスタントです。どのような症状でお困りですか？";
+
+/* Reservation Screen */
+"reservation_title" = "ご希望の病院予約";
+"patient_info" = "患者情報";
+"name_placeholder" = "名前";
+"id_number_placeholder" = "ID番号";
+"address_placeholder" = "住所";
+"phone_placeholder" = "電話番号";
+"hospital_type" = "病院タイプ";
+"private_hospital" = "個人病院";
+"major_hospital" = "上級総合病院";
+
+/* Hospital Types */
+"개인병원" = "個人病院";
+"상급병원" = "上級総合病院";
+"상급종합병원" = "三次病院";
+
+"hospital_and_treatment_info" = "病院および診療情報";
+"region_info" = "地域情報";
+"select_region" = "希望地域";
+"select_province" = "都道府県を選択";
+"select_district" = "市区町村を選択";
+"select_province_prompt" = "都道府県を選択してください";
+"select_district_prompt" = "市区町村を選択してください";
+"region_district_label" = "希望地域（市区町村）";
+"hospital_selection" = "病院選択";
+"select_hospital" = "病院を選択してください";
+"select_date" = "日付を選択してください";
+"select_time" = "時間を選択してください";
+"preferred_date_label" = "希望日";
+"preferred_time_label" = "希望時間";
+"select_department" = "診療科";
+"department_optional" = "診療科（任意）";
+"not_selected" = "選択なし";
+"preferred_doctor" = "希望医師";
+"preferred_doctor_optional" = "希望医師（任意）";
+"main_symptoms" = "主な症状";
+"symptoms_placeholder" = "症状を詳しく入力してください";
+"additional_notes" = "その他の要望";
+"notes_placeholder" = "その他の要望（任意）";
+"submit_reservation" = "予約を提出";
+"attach_files" = "ファイル添付";
+"attached_files" = "添付ファイル";
+"camera" = "カメラ";
+"photo_library" = "フォトライブラリ";
+"ai_summary" = "AI相談要約";
+"submitting_reservation" = "予約を提出中...";
+"success" = "成功";
+"error" = "エラー";
+
+/* Major Hospitals */
+"seoul_national_university_hospital" = "ソウル大学校病院";
+"asan_medical_center" = "アサン病院";
+"samsung_medical_center" = "サムスンソウル病院";
+"severance_hospital" = "セブランス病院";
+"seoul_st_marys_hospital" = "ソウル聖母病院";
+
+/* Medical Departments */
+"internal_medicine" = "内科";
+"surgery" = "外科";
+"pediatrics" = "小児青少年科";
+"obstetrics_gynecology" = "産婦人科";
+"orthopedics" = "整形外科";
+"neurosurgery" = "神経外科";
+"ophthalmology" = "眼科";
+"otolaryngology" = "耳鼻咽喉科";
+"dermatology" = "皮膚科";
+"urology" = "泌尿器科";
+"psychiatry" = "精神健康医学科";
+"rehabilitation_medicine" = "リハビリテーション医学科";
+"family_medicine" = "家庭医学科";
+"emergency_medicine" = "救急医学科";
+"radiology" = "映像医学科";
+"anesthesiology" = "麻酔疼痛医学科";
+
+/* Records Screen */
+"records_title" = "マイ記録";
+"diagnosis_records_tab" = "診断記録";
+"reservations_tab" = "予約履歴";
+"no_diagnosis_records" = "まだ記録がありません";
+"no_reservations" = "予約履歴がありません";
+"reservation_pending" = "待機";
+"reservation_confirmed" = "確定";
+"reservation_cancelled" = "キャンセル";
+"reservation_completed" = "完了";
+"delete_record" = "記録削除";
+"delete_record_message" = "この診断記録を削除しますか？";
+"cancel_reservation" = "予約キャンセル";
+"cancel_reservation_message" = "この予約をキャンセルしますか？（ステータスが「キャンセル」に変更されます）";
+"delete_reservation" = "予約削除";
+"delete_reservation_message" = "この予約を完全に削除しますか？（復元できません）";
+"edit_reservation" = "予約修正";
+"reservation_detail" = "予約詳細";
+"patient_information" = "患者情報";
+"reservation_information" = "予約情報";
+"hospital_name" = "病院";
+"region" = "地域";
+"preferred_date" = "希望日";
+"preferred_time" = "希望時間";
+"department" = "診療科";
+"doctor" = "希望医師";
+"symptoms" = "主な症状";
+"notes" = "その他リクエスト事項";
+"attachments" = "添付ファイル";
+"status" = "ステータス";
+"status_pending_desc" = "病院で予約を確認中です";
+"status_confirmed_desc" = "予約が確定しました";
+"status_completed_desc" = "診療が完了しました";
+"status_cancelled_desc" = "予約がキャンセルされました";
+"private_hospital_name_placeholder" = "個人病院";
+"no_hospital_selected" = "病院未選択";
+
+/* Buttons */
+"confirm" = "確認";
+"cancel" = "キャンセル";
+"delete" = "削除";
+"save" = "保存";
+"close" = "閉じる";
+"done" = "完了";
+
+/* Messages */
+"reservation_success" = "予約が正常に提出されました。";
+"reservation_error" = "予約の提出中にエラーが発生しました。";
+"delete_confirmation" = "本当に削除しますか？";
+"cancel_reservation_confirmation" = "予約をキャンセルしますか？";
+
+/* Date Format */
+"date_format_display" = "yyyy年MM月dd日";
+"date_format_storage" = "yyyy-MM-dd";
+
+/* Validation Messages */
+"error_patient_name_required" = "患者名を入力してください。";
+"error_patient_id_required" = "ID番号を入力してください。";
+"error_patient_address_required" = "住所を入力してください。";
+"error_patient_phone_required" = "連絡先を入力してください。";
+"error_symptoms_required" = "症状を入力してください。";
+"error_region_required" = "希望地域を入力してください。";
+"error_date_required" = "希望日を入力してください。";
+"error_time_required" = "希望時間を入力してください。";
+"error_hospital_required" = "病院を選択してください。";
+"error_reservation_id_missing" = "予約IDがありません。";
+"reservation_update_success" = "予約情報が正常に修正されました。";
+"reservation_update_error" = "予約修正中にエラーが発生しました";
+"updating_reservation" = "予約情報を修正中...";
+
+/* Report Preview Screen */
+"consultation_result" = "相談結果";
+"consultation_completed" = "相談が完了しました";
+"ai_consultation_result_description" = "AIが作成した健康相談結果です";
+"next_steps" = "次のステップ";
+"make_hospital_reservation" = "病院予約";
+"save_as_pdf" = "PDFで保存";
+"pdf_generation" = "PDF生成";
+"pdf_feature_not_implemented" = "PDF生成機能は追加実装が必要です。";
+
+/* Reservation Edit Screen */
+"editable_fields" = "修正可能項目";
+"edit_info_message" = "症状、メモ、希望日時のみ修正できます。患者情報や病院変更は新しい予約を作成してください。";
+
+/* Additional Patient Info Fields */
+"id_number_label" = "ID番号";
+"address_label" = "住所";
+
+/* Department Selection */
+"select_department_label" = "診療科選択";
+"region_selection_label" = "地域選択";
+"date_selection_label" = "日付選択";
+
+/* Camera */
+"camera_unavailable" = "カメラが利用できません";
+"camera_not_available_message" = "このデバイスではカメラが利用できません。フォトライブラリをご利用ください。";
+
+/* Medical Disclaimer */
+"medical_disclaimer_title" = "医療免責事項";
+"medical_disclaimer_text" = "このAI相談は一般的な健康情報提供を目的としており、医療スタッフの診断や治療を代替するものではありません。正確な診断と治療については、必ず医療専門家にご相談ください。緊急時は直ちに119に連絡するか、最寄りの救急外来を受診してください。提供される情報は、WHO、厚生労働省、日本医師会などの公式医学資料に基づいています。";
+
+/* English/International Patient Info Fields */
+"date_of_birth_placeholder" = "生年月日 (YYYY-MM-DD)";
+"passport_number_placeholder" = "パスポート番号";
+"passport_expiry_placeholder" = "パスポート有効期限 (YYYY-MM-DD)";
+"email_placeholder" = "メールアドレス (任意)";
+"contact_number_placeholder" = "連絡可能な電話番号";
+"address_in_korea_placeholder" = "韓国内の住所";
+
+/* Validation Messages for English Fields */
+"error_date_of_birth_required" = "生年月日を入力してください。";
+"error_passport_number_required" = "パスポート番号を入力してください。";
+"error_passport_expiry_required" = "パスポート有効期限を入力してください。";
+"error_contact_number_required" = "連絡可能な電話番号を入力してください。";
+"error_address_in_korea_required" = "韓国内の住所を入力してください。";

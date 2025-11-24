@@ -1,0 +1,10 @@
+/*
+  InfoPlist.strings (Japanese)
+  AIhealth
+*/
+
+/* Bundle display name */
+"CFBundleDisplayName" = "AI問診 病院予約";
+
+/* Bundle name */
+"CFBundleName" = "AI問診 病院予約";

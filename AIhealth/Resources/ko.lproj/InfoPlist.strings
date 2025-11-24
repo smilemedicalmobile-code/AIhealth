@@ -1,0 +1,16 @@
+/*
+  InfoPlist.strings (Korean)
+  AIhealth
+*/
+
+/* Bundle display name */
+"CFBundleDisplayName" = "AI문진 병원예약";
+
+/* Bundle name */
+"CFBundleName" = "AI문진 병원예약";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "병원 예약 시 증상 관련 사진을 첨부하기 위해 카메라 접근 권한이 필요합니다.";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "병원 예약 시 증상 관련 사진을 첨부하기 위해 사진 라이브러리 접근 권한이 필요합니다.";
