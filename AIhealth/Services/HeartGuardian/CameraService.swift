@@ -1,5 +1,6 @@
 import AVFoundation
 import UIKit
+import Combine
 
 class CameraService: NSObject, ObservableObject {
     @Published var error: String?
